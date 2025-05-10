@@ -1,6 +1,6 @@
 # Rolling Greens Dispensary
 
-A web-based dispensary application where customers can browse cannabis products, leave ratings and reviews, and manage their accounts. Built with PHP, MySQL, and MAMP/XAMPP, Rolling Greens provides a simple CRUD interface for both products and customer feedback.
+A web-based dispensary application where customers can browse cannabis products, leave ratings and reviews, and manage their accounts. Built with PHP, MySQL, and MAMP, Rolling Greens provides a simple CRUD interface for both products and customer feedback.
 
 ---
 
@@ -24,19 +24,14 @@ A web-based dispensary application where customers can browse cannabis products,
 
 - **Additional Functionality**  
   - Responsive table layouts for product listings  
-  - Basic search by product name or category
+  - Checkout/shopping cart functionality
 
 ---
 
 ## Features Not Yet Implemented
 
-- Shopping cart and checkout workflow  
-- Payment-gateway integration (e.g., Stripe, PayPal)  
-- Product filtering & sorting (price, strain type, THC/CBD levels)  
-- Admin dashboard for managing users & products  
-- User roles (admin vs. customer)  
+- Displaying different cannabis products such as pre-rolls, concentrates, CBD, etc.  
 - Email verification & password-reset flows  
-- Mobile-first responsive design
 
 ---
 
@@ -45,18 +40,8 @@ A web-based dispensary application where customers can browse cannabis products,
 - **Styling mismatches**  
   Some pages (e.g., product grid, forms) don’t fully match the Figma mockup—colors, margins, and fonts need fine-tuning.
 
-- **Image handling**  
-  Product images may appear overly zoomed or cropped; no thumbnail generation yet.
-
 - **Review deletion refresh**  
   After deleting a review, the page doesn’t always update immediately; user must manually refresh.
-
-- **Form validation**  
-  Client-side checks are minimal, and error messages can be unclear when input is invalid.
-
-- **Security considerations**  
-  - No rate-limiting or CAPTCHA on signup/review forms  
-  - Limited sanitization—parameterized queries help, but further hardening is needed
 
 ---
 
@@ -65,12 +50,9 @@ A web-based dispensary application where customers can browse cannabis products,
 - **Developer:** Osita Odunze  
 - **Technologies & Libraries:**  
   - PHP 7+  
-  - MySQL / MariaDB  
-  - MAMP (macOS) / XAMPP (Windows)  
+  - MySQL 
+  - MAMP (macOS) 
   - [Bootstrap](https://getbootstrap.com/) for layout & components  
-  - [Font Awesome](https://fontawesome.com/) icons  
+  - [Font Awesome](https://fontawesome.com/) icons
 
 - **Design:** Figma mockups by Osita Odunze  
-- **Inspiration:** Various open-source e-commerce and review-platform tutorials
-
-Feel free to open an issue or submit a pull request if you’d like to contribute enhancements or fixes!
